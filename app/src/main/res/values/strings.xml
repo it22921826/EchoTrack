@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoPath</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="name">Name</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="dont_have_account">Dont have an account? Register</string>
+
+    <string name="home_title">Welcome to EchoTrack!</string>
+    <string name="eco_score">Eco Score</string>
+    <string name="streak">Streak</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="track_activity">Track Activity</string>
+    <string name="view_profile">View Profile</string>
+    <string name="join_community">Join Community</string>
+
+</resources>

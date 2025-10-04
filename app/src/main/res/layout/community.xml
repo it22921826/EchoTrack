@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_background"
+    android:padding="24dp">
+
+    <!-- Page Title -->
+    <TextView
+        android:id="@+id/tvCommunityTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+
+        android:text="Community"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <!-- Guidance Text -->
+    <TextView
+        android:id="@+id/tvCommunityGuidance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share your eco tips, questions, and achievements!"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_below="@id/tvCommunityTitle"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- RecyclerView for Posts -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCommunity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/tvCommunityGuidance"
+        android:layout_above="@id/fabAddPost"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Floating Action Button to Add Post -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="8dp"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@color/white"
+        android:backgroundTint="@color/accent_blue"
+        android:contentDescription="Add Post"/>
+
+    <Button
+        android:id="@+id/btnGoHome"
+        android:layout_width="134dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="860dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/accent_blue"
+        android:text="Go to Home"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
